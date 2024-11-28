@@ -1,0 +1,79 @@
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.8;
+  background: #0c494b;
+  margin: 0;
+  padding: 20px;
+}
+
+.resume {
+  max-width: 725px;
+  margin: auto;
+  background: #d8fff8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header.personal-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+header .photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #161718;
+}
+
+header .details h1 {
+  color: #333;
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+header .details p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.section h2 {
+  color: #0e835e;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.section p,
+.section ul li {
+  color: #555;
+  font-size: 1.2em;
+}
+
+.section hr {
+  border: 0;
+  height: 2px;
+  background-color: #22592f;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
