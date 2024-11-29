@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Editable Resume</h1>
+    <form id="resume-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="education">Education:</label>
+<textarea id="education" name="education" rows="4" placeholder="Enter your education details (e.g., Degree, University, Year)"></textarea>
+      <label for="experience">Work Experience:</label>
+      <textarea id="experience" name="experience" rows="4" placeholder="Describe your work experience"></textarea>
+
+      <label for="skills">Skills:</label>
+<input type="text" id="skills" name="skills" placeholder="Enter skills separated by commas">
+      <button type="button" id="generate">Generate Resume</button>
+    </form>
+
+    <div id="resume-preview">
+      <h2>Resume Preview</h2>
+      <div id="preview-content"></div>
+    </div>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>
